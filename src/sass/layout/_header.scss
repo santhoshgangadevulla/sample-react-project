@@ -1,0 +1,92 @@
+#{$app}-{
+    &header{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        height:80px;
+        background-color: #F2F2F2;
+        nav a{
+            margin:0 1.5rem;
+        }
+        &-{
+            &container{
+                width:80%;
+                height:80px;
+            }
+        }
+        &-{
+            &links{
+                text-decoration:none;
+                color:#313131;
+                font-size:18px;
+                &:hover{
+                    color:#49ad09;
+                }
+            }
+            &nav-btn{
+                padding:5px;
+                cursor:pointer;
+                background-color:transparent;
+                border:none;
+                color: #49ad09;
+                outline:none;
+                display:none;
+                opacity:0;
+            }
+        }
+        &-{
+            &wrapper {
+                background-color: #F2F2F2;
+                overflow:hidden;  
+            }
+        }
+        &-{
+            &signup-button{
+                height:45px;
+                width:100px;
+                background-color:#49AD09;
+                border:1px solid #49AD09;
+                color: #ffffff;
+                &:hover{
+                    background-color: transparent;
+                    color:#49AD09;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:1024px){
+    .sh-header-nav-btn{
+        display:block;
+        opacity:1;
+    }
+    .sh-header nav{
+        position:fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:1.5rem;
+        background-color:#F2F2F2;
+        transition:1s;
+        transform:translateY(-100vh);
+    }
+
+    .sh-header .responsive{
+        transform:none;
+    }
+
+    nav .sh-header-nav-close-btn{
+        position:fixed;
+        top:2rem;
+        right: 2rem;
+        display:block;
+    }
+}
