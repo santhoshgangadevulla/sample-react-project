@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="42" viewBox="0 0 28 42">
+  <g id="_7564187_figma_logo_brand_icon_1" data-name="7564187_figma_logo_brand_icon 1" transform="translate(-346 -1824)">
+    <path id="path0_fill" d="M7,14a7,7,0,0,0,7-7V0H7A7,7,0,1,0,7,14Z" transform="translate(346 1852)" fill="#0acf83"/>
+    <path id="path1_fill" d="M0,7A7,7,0,0,1,7,0h7V14H7A7,7,0,0,1,0,7Z" transform="translate(346 1838)" fill="#a259ff"/>
+    <path id="path1_fill_1_" d="M0,7A7,7,0,0,1,7,0h7V14H7A7,7,0,0,1,0,7Z" transform="translate(346 1824)" fill="#f24e1e"/>
+    <path id="path2_fill" d="M0,0H7A7,7,0,0,1,7,14H0Z" transform="translate(360 1824)" fill="#ff7262"/>
+    <path id="path3_fill" d="M14,7A7,7,0,1,1,7,0,7,7,0,0,1,14,7Z" transform="translate(360 1838)" fill="#1abcfe"/>
+  </g>
+</svg>

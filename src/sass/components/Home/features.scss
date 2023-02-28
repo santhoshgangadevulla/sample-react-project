@@ -1,0 +1,51 @@
+#{$app}-{
+    &feature{
+        &-{
+            &wrapper{
+                width:60%;
+                margin:auto;
+                margin-top:10rem;
+            }
+            &heading{
+                font-family:Helvetica,sans-serif;
+                font-size:45px;
+                color:#313131;
+                font-weight:500;
+            }
+            &sub-heading{
+                font-family: Helvetica,sans-serif;
+                font-size:18px;
+                color:#514040;
+            }
+            &card{
+                border:1px solid #EDEDED;
+                width:300px;
+                height:300px;
+                padding:30px 10px 0px 20px;
+                cursor:pointer;
+                &:hover{
+                    background-color:#ffffff;
+                    border:0px;
+                    box-shadow:5px 10px 8px 10px #efe9e9;
+                }
+                &-{
+                    &heading{
+                        color:#313131;
+                        font-size:22px;
+                        font-family: Helvetica,sans-serif;
+                    }
+                    &description{
+                        font-family: Helvetica,sans-serif;
+                        font-size:16px;
+                        line-height:26px;
+                        color:#514040;
+                        padding-top:20px;
+                    }
+                    &link{
+                        color: #49AD09;
+                    }
+                }
+            }
+        }
+    }
+}

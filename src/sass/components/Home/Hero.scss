@@ -2,7 +2,11 @@
     &hero{
         &-{
             &wrapper{
-                height:90vh;
+                height:100vh;
+                background-color: #F2F2F2;
+            }
+            &container{
+                background-color:#F2F2F2;
             }
         }
         &-{
@@ -56,6 +60,7 @@
     .sh-hero-wrapper{
         width:80%;
         margin:auto;
+        background-color: #F2F2F2;
     }
 }
 

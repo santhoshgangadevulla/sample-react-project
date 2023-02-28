@@ -9,7 +9,7 @@ function Navbar() {
         navRef.current.classList.toggle("responsive")
     }
     return(
-        <div className="m-auto sh-header-container d-flex flex-column justify-content-center">
+        <div className="m-auto sh-header-container d-flex flex-column justify-content-center fixed-top">
             <header className="sh-header">
                 <h3 className="mb-0">SHOPIFY</h3>
                 <nav ref={navRef}>
