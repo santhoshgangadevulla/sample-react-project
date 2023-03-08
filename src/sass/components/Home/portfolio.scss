@@ -1,0 +1,21 @@
+#{$app}-{
+    &portfolio{
+        &-{
+            &wrapper{
+                margin:auto;
+                width:70%;
+                padding-top:10rem;
+            }
+            &tagline{
+                font-family:Helvetica,sans-serif;
+                font-size:24px;
+                font-weight:500;
+            }
+            &link{
+                color:#49AD09;
+                text-decoration:none;
+            }
+        }
+
+    }
+}

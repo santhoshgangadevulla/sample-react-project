@@ -1,0 +1,25 @@
+#{$app}-{
+    &policy{
+        &-{
+            &wrapper{
+                width:80%;
+                margin:auto;
+                padding-top:10rem;
+            }
+            &name{
+                font-size:25px;
+                font-family:Helvetica, sans-serif;
+                font-weight:lighter;
+            }
+            &price{
+                font-size:45px;
+                font-weight:500;
+                font-family:Helvetica,sans-serif;
+            }
+            &list{
+                // list-style-image: url('/public/assets/bullet-point.svg');
+                font-size:16px;
+            }
+        }
+    }
+}

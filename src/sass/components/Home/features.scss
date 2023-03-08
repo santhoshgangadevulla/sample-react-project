@@ -17,10 +17,26 @@
                 font-size:18px;
                 color:#514040;
             }
+            &button{
+                height:45px;
+                width:150px;
+                background-color:#49AD09;
+                border:1px solid #49AD09;
+                color: #ffffff;
+                border-radius:5px;
+                &:hover{
+                    background-color: transparent;
+                    color:#49AD09;
+                }
+                &--{
+                    &new{
+                        margin-top:auto !important;
+                        align-self:center;
+                    }
+                }
+            }
             &card{
                 border:1px solid #EDEDED;
-                width:300px;
-                height:300px;
                 padding:30px 10px 0px 20px;
                 cursor:pointer;
                 &:hover{
